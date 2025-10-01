@@ -1,0 +1,52 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px; /* espacio entre columnas */
+      flex-wrap: wrap; /* permite que baje en pantallas chicas */
+    }
+
+    .columna {
+      flex: 1; /* que todas crezcan iguales */
+      min-width: 250px; /* ancho mínimo antes de bajar */
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .columna:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      margin-top: 10px;
+      font-size: 1.5rem;
+      color: #222;
+    }
+
+    p {
+      line-height: 1.5;
+      color: #555;
+    }
+
+    img {
+      max-width: 100%; /* ocupa todo el ancho disponible */
+      height: auto; /* mantiene proporción */
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
