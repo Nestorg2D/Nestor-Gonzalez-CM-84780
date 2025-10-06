@@ -68,14 +68,14 @@ color: #444;
 line-height: 1.4;
 }
 
-.post img.shared {
+.post img.compartido {
 max-width: 100%;
 height: auto;
 border-radius: 8px;
 transition: transform 0.4s ease;
 }
 
-.post img.shared:hover {
+.post img.compartido:hover {
 transform: scale(1.05);
 }
 .redes li{ 
