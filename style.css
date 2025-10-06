@@ -94,9 +94,6 @@ text-decoration: none;
 color: aliceblue;
 display: block;
 }
-.sociales:hover{
-    transform: translateY(-5px);
-}
 .subtitulos {
 display: flex;
 align-items: center;
