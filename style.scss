@@ -237,14 +237,15 @@ font-family: $font-family_3;
 justify-items: center;
 padding: 20px;
 img {
-width: 600px;
+width: 400px;
 height: 400px;
 }
 @media (max-width: 768px) {
 img {
-width: 250px;
-height: 200px;
+width: 320px;
+height: 250px;
     }
+}
 }
 .contacto-section {
 max-width: 1200px;
@@ -453,7 +454,7 @@ margin: 0 auto;
     }
 .video-grid {
 display: grid;
-grid-template-columns: 450px 450px;
+grid-template-columns: 400px 400px;
 gap: 30px;
 margin-top: 30px;
 }
@@ -479,5 +480,4 @@ display: block;
 .video-grid {
 grid-template-columns: 400px;
     }
-}
 }
