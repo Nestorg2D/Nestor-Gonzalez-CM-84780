@@ -241,62 +241,63 @@ input {
   width: 600px;
   height: 400px;
 }
-
-.contacto-section {
+@media (max-width: 768px) {
+  .galeria img {
+    width: 250px;
+    height: 200px;
+  }
+}
+.galeria .contacto-section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
 }
-
-.contacto-intro {
+.galeria .contacto-intro {
   text-align: center;
   margin-bottom: 40px;
 }
-.contacto-intro h2 {
+.galeria .contacto-intro h2 {
   color: #1f1006;
   margin-bottom: 15px;
 }
-.contacto-intro p {
+.galeria .contacto-intro p {
   color: #666;
   font-size: 1.1rem;
 }
-
-.contacto-container {
+.galeria .contacto-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   margin-top: 30px;
 }
 @media (max-width: 768px) {
-  .contacto-container {
+  .galeria .contacto-container {
     grid-template-columns: 1fr;
   }
 }
-
-.contacto-form {
+.galeria .contacto-form {
   background: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.contacto-form h3 {
+.galeria .contacto-form h3 {
   color: #6f4e37;
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
-
-.form-group {
+.galeria .form-group {
   margin-bottom: 20px;
 }
-.form-group label {
+.galeria .form-group label {
   display: block;
   margin-bottom: 5px;
   color: #333;
   font-weight: 500;
 }
-.form-group input,
-.form-group select,
-.form-group textarea {
+.galeria .form-group input,
+.galeria .form-group select,
+.galeria .form-group textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ddd;
@@ -304,18 +305,17 @@ input {
   font-size: 1rem;
   transition: border-color 0.3s;
 }
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
+.galeria .form-group input:focus,
+.galeria .form-group select:focus,
+.galeria .form-group textarea:focus {
   outline: none;
   border-color: #6f4e37;
 }
-.form-group textarea {
+.galeria .form-group textarea {
   resize: vertical;
   min-height: 120px;
 }
-
-.submit-btn {
+.galeria .submit-btn {
   width: 100%;
   padding: 12px;
   background-color: #6f4e37;
@@ -327,23 +327,21 @@ input {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.submit-btn:hover {
+.galeria .submit-btn:hover {
   background-color: #5a3d2b;
 }
-
-.contacto-info {
+.galeria .contacto-info {
   background: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.contacto-info h3 {
+.galeria .contacto-info h3 {
   color: #6f4e37;
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
-
-.info-item {
+.galeria .info-item {
   display: flex;
   align-items: start;
   margin-bottom: 20px;
@@ -351,7 +349,7 @@ input {
   background: #f9f9f9;
   border-radius: 8px;
 }
-.info-item .info-icon {
+.galeria .info-item .info-icon {
   width: 40px;
   height: 40px;
   background: #6f4e37;
@@ -364,55 +362,53 @@ input {
   font-weight: bold;
   flex-shrink: 0;
 }
-.info-item .info-content h4 {
+.galeria .info-item .info-content h4 {
   margin: 0 0 5px 0;
   color: #333;
   font-size: 1.1rem;
 }
-.info-item .info-content p {
+.galeria .info-item .info-content p {
   margin: 0;
   color: #666;
 }
-.info-item .info-content a {
+.galeria .info-item .info-content a {
   color: #6f4e37;
   text-decoration: none;
   transition: text-decoration 0.3s;
 }
-.info-item .info-content a:hover {
+.galeria .info-item .info-content a:hover {
   text-decoration: underline;
 }
-
-.faq-section {
+.galeria .faq-section {
   margin-top: 40px;
   background: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.faq-section h3 {
+.galeria .faq-section h3 {
   color: #6f4e37;
   margin-bottom: 20px;
   text-align: center;
 }
-.faq-section .faq-item {
+.galeria .faq-section .faq-item {
   margin-bottom: 15px;
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
 }
-.faq-section .faq-item:last-child {
+.galeria .faq-section .faq-item:last-child {
   border-bottom: none;
 }
-.faq-section .faq-item h4 {
+.galeria .faq-section .faq-item h4 {
   color: #6f4e37;
   font-size: 1.1rem;
   margin-bottom: 8px;
 }
-.faq-section .faq-item p {
+.galeria .faq-section .faq-item p {
   color: #666;
   margin: 0;
 }
-
-.success-message {
+.galeria .success-message {
   display: none;
   background: #d4edda;
   color: #155724;
@@ -421,46 +417,40 @@ input {
   margin-bottom: 20px;
   border: 1px solid #c3e6cb;
 }
-.success-message.show {
+.galeria .success-message.show {
   display: block;
 }
-
-.seccion-videos {
+.galeria .seccion-videos {
   padding: 40px 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
-
-.video-grid {
+.galeria .video-grid {
   display: grid;
   grid-template-columns: 450px 450px;
   gap: 30px;
   margin-top: 30px;
 }
-
-.video-item {
+.galeria .video-item {
   background: #f8f9fa;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-
-.video-item h3 {
+.galeria .video-item h3 {
   padding: 15px;
   margin: 0;
   font-size: 1.1rem;
   background: #fff;
 }
-
-.video-item video,
-.video-item iframe {
+.galeria .video-item video,
+.galeria .video-item iframe {
   width: 100%;
   height: 250px;
   display: block;
 }
-
 @media (max-width: 768px) {
-  .video-grid {
+  .galeria .video-grid {
     grid-template-columns: 400px;
   }
 }

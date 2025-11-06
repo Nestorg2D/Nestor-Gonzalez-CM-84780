@@ -240,6 +240,11 @@ img {
 width: 600px;
 height: 400px;
 }
+@media (max-width: 768px) {
+img {
+width: 250px;
+height: 200px;
+    }
 }
 .contacto-section {
 max-width: 1200px;
@@ -474,4 +479,5 @@ display: block;
 .video-grid {
 grid-template-columns: 400px;
     }
+}
 }
